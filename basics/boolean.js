@@ -1,13 +1,22 @@
-// let temp = 31;
-// let isFreezing = temp < 32 ;
+let temp = 180;
+let isFreezing = temp <=32 ;
+
+if (isFreezing){
+    console.log('It is freezing outside!');
+}
+
+if(temp >=110){
+    console.log('It is way too hot outside!');
+}
 
 
-
-// console.log(isFreezing);
 
 let age = 70;
-let isChild = age <= 7;
-let isSenior = age >= 65;
 
-console.log('is child: ' + isChild);
-console.log('is senior: ' + isSenior);
+if(age <= 7 ){
+    console.log('You will get childs discount');
+}
+
+if(age >= 65){
+    console.log('You will get seniors discount');
+}
